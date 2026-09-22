@@ -2,6 +2,12 @@
 
 Browser extension (Brave / Chromium, Manifest V3) that shows **6 videos per row** on YouTube instead of the default 3.
 
+## Preview
+
+| Before (3 per row) | After (6 per row) |
+| --- | --- |
+| ![](screens/before.png) | ![](screens/after.png) |
+
 ## Install from a ZIP (no cloning needed)
 
 1. Download `youtube-rows-v1.0.0.zip` from [Releases](../../releases/latest).
