@@ -12,6 +12,12 @@ Browser extension (Brave / Chromium, Manifest V3) that shows **6 videos per row*
 
 Toggle on/off via the extension's toolbar icon.
 
+## Preview
+
+| Before (3 per row) | After (6 per row) |
+| --- | --- |
+| ![](docs/before.png) | ![](docs/after.png) |
+
 ## How it works
 
 YouTube sizes grid items with `width: calc(100%/var(--ytd-rich-grid-items-per-row) - var(--ytd-rich-grid-item-margin))`. The extension just overrides that CSS variable to `6`, so the native layout math does the rest — no DOM rewriting, no perf cost.
